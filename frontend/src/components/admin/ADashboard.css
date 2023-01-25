@@ -1,0 +1,69 @@
+.box { background:#fbfcfc; height:100%; padding:1px; margin-bottom:20px; }
+
+.box-head {
+    background:#ba4c32;
+    height:32px;
+    color:#fff;
+    padding: 0 10px;
+    line-height:32px;
+    white-space:nowrap;
+    border-bottom:solid 1px #fff;
+
+}
+.box-head .right{
+    padding-top:5px;
+    line-height:13px;
+}
+.box-head .right label,
+.box-head .right input {
+    float:left;
+}
+.box-head .right label {
+    padding:4px 0 0 0;
+}
+.box-head .right input {
+    margin-left:5px;
+}
+.left, .alignleft {  float: left}
+.right, .alignright {  float: right;}
+.field { border:solid 1px #d3cfc7; background:#fff; padding:3px; }
+
+
+/* .table {} */
+.table th{ background:#fffdfa;  color:#818181; text-align: left; padding:7px 10px; border-bottom:solid 1px #d2d1cb;}
+.table td{ background:#fbfcfc;  border-bottom:solid 1px #e0e0e0; padding:8px 10px; }
+/* tr.odd td{ background:#f8f8f8; } */
+.table tr:hover td{ background:#fff9e1; }
+.inner
+{
+    display: inline-block;
+}
+.restrict {
+    text-align: center;
+}
+.remove {
+    width: 200px;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 3px 3px;
+}
+
+.warning {
+    width: 200px;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 3px 3px;
+}
+
+.aMainL {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  height: 400px;
+  width: 400px;
+  border-top-color: var(--danger-color);
+}
+/* .checkbox { width:13px; height:13px; ver.tical-align:top; position:relative; top:2px; } */
+.ac { text-align: center !important; }

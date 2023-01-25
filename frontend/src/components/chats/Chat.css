@@ -1,0 +1,277 @@
+
+#defPanel {
+  width: 100%;
+  padding: 10px 100px;
+  color: darkgrey;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#modalWrapper {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.75);
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+#modalWindowMain {
+  position: relative;
+  width: 900px;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 25px;
+  padding-top: 100px;
+}
+
+#mwCloseButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: transparent;
+  color: salmon;
+  border: none;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  padding: 10px;
+  transition: color 0.5s;
+}
+
+#mwCloseButton:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#mwTopAligner {
+  position: relative;
+  margin-top: 10x;
+  height: 1px;
+  width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+
+#mwChatLog {
+  position: relative;
+  border-radius: 25px;
+  border: 2px darkgrey solid;
+  height: 625px;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.messageContainer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 0 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.message {
+  display: block;
+  position: relative;
+  color: white;
+  max-width: 70%;
+  min-height: 75px;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  overflow-y: auto;
+}
+
+.idleM {
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--dark-color)
+}
+
+.personal {
+  background-color: var(--success-color);
+  float: right;
+  border-bottom-right-radius: 0;
+}
+
+.failed {
+  background-color: var(--danger-color);
+}
+
+.external {
+  background-color: var(--primary-color);
+  float: left;
+  border-bottom-left-radius: 0;
+}
+
+.personalTimeStamp {
+  width: 100%;
+  background-color: transparent;
+  color: darkgrey;
+  float: left;
+  text-align: right;;
+}
+.externalTimeStamp {
+  width: 100%;
+  background-color: transparent;
+  color: darkgrey;
+  float: left;
+}
+
+.messageDateTag {
+  color: lightgrey;
+  background-color: transparent;
+}
+
+#messageComposer {
+  position: relative;
+  margin-top: 10px;
+  width: 675px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#messageIn {
+  line-height: 16px;
+  font-size: 16px;
+  resize: none;
+  height: 60%;
+  width: 100%;
+  border: 2px lightgrey solid;
+  padding: 5px 5px;
+  vertical-align: text-top;
+  transition-duration: 0.5s;
+  transition-property: color, border;
+  word-break: break-all;
+}
+
+#messageIn:focus {
+  border-color: var(--dark-color);
+  border-radius: 0;
+}
+
+.messageButton {
+  float: right;
+  background-color: var(--light-color);
+  color: #9c9c9c;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 10px;
+  border: 1px #9c9c9c solid;
+  height: 40px;
+  margin-left: 10px;
+  transition-duration: 0.25s;
+  transition-property: color, border;
+}
+
+#send:hover {
+  color: var(--success-color);
+  border-color: var(--success-color);
+  box-shadow: 0px 0px 1px var(--success-color);
+
+}
+
+#cancel:hover{
+  color: var(--danger-color);
+  border-color: var(--danger-color);
+  box-shadow: 0px 0px 1px var(--danger-color);
+}
+
+#mwTBPic {
+  border-radius: 25%;
+  height: 85px;
+  width: 85px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#mwTitleBar {
+  font-size: 28px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 9;
+  width: 90%;
+}
+
+#mwTBNameTag {
+  line-height: 100px;
+  position: absolute;
+  color: var(--primary-color);
+  top: 0;
+  bottom: 0;
+  left: 115px;
+  right: 0;
+}
+
+#chatHint {
+  float: right;
+  border-bottom-right-radius: 350px;
+  width: 310px;
+  height: 900px;
+  max-height: 70vh;
+  color: var(--dark-color);
+  font-family: sans-serif;
+  background-color: var(--light-color);
+}
+
+#chatHintTitle {
+  text-align: center;
+  background-color: var(--dark-color);
+  border-bottom: 7px var(--primary-color) solid;
+  font-size: 28px;
+  padding: 15px 0;
+  color: var(--light-color);
+  width: 100%;
+}
+
+#chatHintText {
+  padding: 20px;
+}
+
+.modalL {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+}
+
+.mainL {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  height: 400px;
+  width: 400px;
+}
+
+.inputL {
+  height: 60px;
+  width: 60px;
+  margin-left: 20%;
+  padding: 5px 5px;
+}

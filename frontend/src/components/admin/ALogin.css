@@ -1,0 +1,66 @@
+.mainWrapper {
+  background-color: white;
+  z-index: 90;
+  width: 100%;
+  height: 100%;
+  padding-top: 0vh;
+}
+
+.alignment {
+  margin: 0 auto 0 auto;
+  width: 700px;
+}
+
+.fill {
+  width: 600px;
+}
+
+#loginButton {
+  background-color: darkred;
+  color: white;
+  font-size: 22px;
+  padding: 10px 35px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  border: 4px solid white;
+  transition-property: color;
+  transition-duration: .5s;
+}
+
+#loginButton:hover {
+  background-color: white;
+  color: darkred;
+  border-color: darkred;
+}
+
+.loginLink {
+  color: grey;
+  text-decoration: none;
+  transition: color .5s;
+  font-size: 20px;
+}
+
+.loginLink:hover {
+  color: darkred;
+}
+
+.linkText {
+  margin-top: 10px;
+}
+
+.mTitle {
+  color: darkred;
+  font-size: 56px;
+}
+
+.formElem {
+  display: block;
+  margin-top: 15px;
+  font-size: 18px;
+  border: 2px grey solid;
+  transition: color .5s;
+}
+
+.formElem:focus {
+  border-color: darkred;
+}

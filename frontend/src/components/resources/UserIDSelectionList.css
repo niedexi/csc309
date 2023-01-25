@@ -1,0 +1,66 @@
+#uidslMainName {
+  text-align: center;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  border-bottom: 7px var(--primary-color) solid;
+  padding: 22px 0px;
+  font-size: 32px;
+}
+
+.uidslListing {
+  position: relative;
+  height: 100px;
+  border-bottom: 2px solid grey;
+  margin-right: 5px;
+  color: var(--dark-color);
+
+  font-size: 28px;
+  vertical-align: middle;
+  line-height: 100px;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition: color, background-color 0.35s;
+}
+
+.uidslSelectedListing {
+  position: relative;
+  height: 100px;
+  border-bottom: 2px solid grey;
+  margin-right: 5px;
+
+  cursor: default;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  font-size: 28px;
+  vertical-align: middle;
+  line-height: 100px;
+  transition: color, background-color 0.25s;
+}
+
+.uidslListing:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.uidslUserPic {
+  margin-top: 1px;
+  height: 96px;
+  width: 96px;
+  float: left;
+  border-radius: 0 0 25% 0;
+  margin-right: 15px;
+}
+
+.uidslUserList {
+  overflow-y: auto;
+  width: 720px;
+  max-height: 70vh;
+  height: 1600px;
+  overflow-x: none;
+}
+
+.uidslListDiv {
+  float: left;
+  width: 720px;
+}

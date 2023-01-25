@@ -1,0 +1,144 @@
+
+#profTopDiv {
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+
+#profDiv {
+  padding-bottom: 5px;
+  border-bottom: 5px var(--dark-color) solid;
+}
+
+.microFImage {
+  height: 36px;
+  width: 36px;
+  float: left;
+  border-radius: 25% 0 25% 0;
+  margin: 2px;
+  border: 2px var(--primary-color) solid;
+}
+
+.leftFloat {
+  float: left;
+}
+
+.profButtonContainer {
+  margin-top: 25px;
+  display: block;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profFButtons {
+  float: left;
+  height: 90px;
+  width: 230px;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 5px 10px;
+  border: 2px var(--dark-color) solid;
+  border-bottom: 6px var(--primary-color) solid;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.25s;
+  trasition: color 0.25s;
+
+  /* border-radius: 20px; */
+}
+
+.profFButtons:hover {
+  background-color: #e7e7e7;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.normalise {
+  font-weight: normal;
+}
+
+#profLead {
+  font-size: 26px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  color: grey;
+}
+
+#profPicMain {
+  border-radius: 25% 0 0 0;
+  height: 450px;
+  width: 450px;
+  float: left;
+}
+
+#profUserName {
+  color: var(--light-color);
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 5px var(--primary-color) solid;
+  margin-bottom: 10px;
+  margin-left: -10px;
+  background-color: var(--dark-color);
+  padding: 10px 0;
+}
+
+#profInfoDiv {
+  float: left;
+  width: 580px;
+  height: 400px;
+  padding-left: 10px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+#profLang {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-left: 25px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#profStat {
+  padding: 0 15px;
+  width: 100%;
+  height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+#profStatHeading {
+  float: left;
+  background-color: var(--dark-color);
+  border-bottom: 5px var(--primary-color) solid;
+  width: 100%;
+  margin-bottom: 5px;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: var(--light-color);
+}
+
+.mPup {
+  color: var(--light-color);
+  width: 100%;
+  height: 40px;
+}
+
+.scd {
+  background-color: var(--success-color);
+}
+
+.abr {
+  background-color: var(--danger-color);
+}
